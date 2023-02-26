@@ -1,13 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Provider } from 'react-redux';
+import { Provider } from "react-redux";
 // Set up redux
 
 export default function App() {
   return (
+    <Provider>
     <View style={styles.container}>
-      <Text>Lets build Uber</Text>
+      <Text>Lets build Uber!</Text>
     </View>
+    </Provider>
   );
 }
 
